@@ -5,12 +5,19 @@
   <groupId>org.example</groupId>
   <artifactId>JavaProject</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
   <name>JavaProject</name>
   <url>http://maven.apache.org</url>
+    <modules>
+        <module>framework-example</module>
+      <module>java-base-example</module>
+      <module>springboot-study-example</module>
+      <module>spring-cloud-example</module>
+        <module>arch</module>
+    </modules>
 
-  <properties>
+    <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
@@ -18,8 +25,8 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
+      <version>4.13.2</version>
+      <scope>compile</scope>
     </dependency>
   </dependencies>
 </project>
