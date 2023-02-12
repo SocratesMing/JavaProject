@@ -13,10 +13,10 @@
     <name>framework-example</name>
     <url>http://maven.apache.org</url>
     <modules>
-        <module>fastjson-demo</module>
         <module>guava-demo</module>
         <module>junit4-demo</module>
         <module>lomok-demo</module>
+        <module>kafka-demo</module>
     </modules>
 
     <properties>
@@ -24,6 +24,11 @@
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+        </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>

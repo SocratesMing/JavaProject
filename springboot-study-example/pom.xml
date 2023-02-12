@@ -9,7 +9,6 @@
 
     <artifactId>springboot-study-example</artifactId>
     <packaging>jar</packaging>
-
     <name>springboot-study-example</name>
     <url>http://maven.apache.org</url>
 
